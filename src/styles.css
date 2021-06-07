@@ -1,0 +1,30 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/* itemlist css */
+
+.container {
+  padding: 20px;
+  margin: 0, auto;
+  justify-content: center;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.items-container {
+  display: flex;
+  flex-direction: column;
+  height: 20rem;
+
+  justify-content: space-between;
+}
+
+.item {
+  border: 2px solid grey;
+  border-radius: 5px;
+  padding: 20px;
+  width: 10rem;
+}
